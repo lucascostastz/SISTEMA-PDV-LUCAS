@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>450</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>780</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>LC SISTEMAS | LOGIN</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Icones/png-clipart.png</normaloff>../Icones/png-clipart.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame_4">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(94, 94, 94);
+border: 0.5px solid black;
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <property name="styleSheet">
+          <string notr="true">QWidget#widget_2{
+
+border:0px solid white;
+
+}</string>
+         </property>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>421</width>
+            <height>361</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-top-left-radius:30px;
+background-color: qlineargradient(spread:pad, x1:0.518552, y1:0.414227, x2:0.52957, y2:1, stop:0 rgba(189, 189, 0, 255), stop:1 rgba(102, 102, 102, 255));
+border-bottom-left-radius:12px;
+
+
+
+border:0px;
+
+background-image: url(:/background/lcsistemas.png);
+  background-repeat: no-repeat;
+ border-radius: 10px;
+ background-repeat: no-repeat;
+background-position: center;
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>10</y>
+            <width>301</width>
+            <height>361</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(85, 87, 83);
+
+border-bottom-right-radius:20px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>150</y>
+            <width>271</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>9</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+	color: rgb(0, 0, 0);
+border:0px solid;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+border-bottom:2px solid blue;
+	background-color: rgb(238, 238, 236);
+}
+
+QLineEdit:hover {
+    border-bottom:2px solid rgb(238, 238, 236);
+}
+QLineEdit:focus {
+	font: 16pt &quot;MS Shell Dlg 2&quot;;
+     border-bottom:2px solid rgb(238, 238, 236);
+    color: rgb(100, 100, 100);
+}
+
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="frame">
+           <bool>true</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="placeholderText">
+           <string>Usuario</string>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_4">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>190</y>
+            <width>271</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>9</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+	color: rgb(0, 0, 0);
+border:0px solid;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+border-bottom:2px solid blue;
+	background-color: rgb(238, 238, 236);
+}
+
+QLineEdit:hover {
+    border-bottom:2px solid rgb(238, 238, 236);
+}
+QLineEdit:focus {
+	font: 16pt &quot;MS Shell Dlg 2&quot;;
+     border-bottom:2px solid rgb(238, 238, 236);
+    color: rgb(100, 100, 100);
+}
+
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="frame">
+           <bool>false</bool>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="placeholderText">
+           <string>Senha</string>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QProgressBar" name="my_progressBar">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>330</y>
+            <width>261</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar{
+background-color: rgb(255, 255, 255);
+border-style: none;
+text-align: center;
+color: rgb(255, 0, 0)
+}
+QProgressBar::chunk{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 136, 255, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="login_button_2">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>111</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="cursor">
+           <cursorShape>OpenHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+background:#1E90FF;
+color:white;
+font-family: Trebuchet MS;
+font-weight:bold;
+font-size:14px;
+}
+QPushButton:hover{
+background:#4169E1;
+}</string>
+          </property>
+          <property name="text">
+           <string> Confirmar</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>:/newPrefix/login_button.png</normaloff>:/newPrefix/login_button.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>16</width>
+            <height>16</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="sair">
+          <property name="geometry">
+           <rect>
+            <x>600</x>
+            <y>260</y>
+            <width>111</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="cursor">
+           <cursorShape>OpenHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+background:#1E90FF;
+color:white;
+font-family: Trebuchet MS;
+font-weight:bold;
+font-size:14px;
+}
+QPushButton:hover{
+background:#4169E1;
+}</string>
+          </property>
+          <property name="text">
+           <string>sair</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>:/newPrefix/login_button.png</normaloff>:/newPrefix/login_button.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>16</width>
+            <height>16</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>300</y>
+            <width>261</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: none;
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_save_user">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>230</y>
+            <width>121</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Segoe UI</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QCheckBox{border:none;}
+QCheckBox::indicator {
+	border: 3px solid rgb(100, 100, 100);
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;	
+	background-color: rgb(135, 135, 135);
+}
+QCheckBox::indicator:checked {
+	border: 3px solid rgb(255, 205, 0);
+	background-color: rgb(255, 255, 0);
+}</string>
+          </property>
+          <property name="text">
+           <string>Visualizar</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="login_button_5">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>30</y>
+            <width>271</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="cursor">
+           <cursorShape>OpenHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+border: none;
+background-color: rgb(94, 94, 94);;
+color:white;
+	
+	font:  18pt &quot;Segoe UI Black&quot;;
+}
+QPushButton:hover{
+font: 19pt &quot;Segoe UI Black&quot;;
+	color: rgb(158, 158, 158);
+
+}</string>
+          </property>
+          <property name="text">
+           <string>LC INFORMÁTICA</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>:/newPrefix/login_button.png</normaloff>:/newPrefix/login_button.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>16</width>
+            <height>16</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>460</x>
+            <y>120</y>
+            <width>251</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: none;
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>380</y>
+            <width>321</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: none;
+font: 8pt &quot;Lucida Console&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Sistema em desenvolvimento por: Lucas Costa</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../icones/icones.qrc"/>
+ </resources>
+ <connections/>
+</ui>

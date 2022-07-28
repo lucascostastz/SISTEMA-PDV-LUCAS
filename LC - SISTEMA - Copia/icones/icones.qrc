@@ -1,0 +1,54 @@
+<RCC>
+  <qresource prefix="pesquisar">
+    <file>pesquisar.png</file>
+  </qresource>
+  <qresource prefix="back01">
+    <file>360_F_366812856_jflUYBSbREiMU1EQJCIMmYAtLorCDz2m.png</file>
+  </qresource>
+  <qresource prefix="background">
+    <file>lcsistemas.png</file>
+  </qresource>
+  <qresource prefix="edit">
+    <file>edit.jpg</file>
+  </qresource>
+  <qresource prefix="editar">
+    <file>editar.png</file>
+  </qresource>
+  <qresource prefix="sair">
+    <file>sair.png</file>
+  </qresource>
+  <qresource prefix="imprimir">
+    <file>impressora.png</file>
+  </qresource>
+  <qresource prefix="add">
+    <file>adicionar.png</file>
+  </qresource>
+  <qresource prefix="caixa">
+    <file>caixa.png</file>
+  </qresource>
+  <qresource prefix="usuarios">
+    <file>adduser_.png</file>
+  </qresource>
+  <qresource prefix="vendas">
+    <file>compras.png</file>
+  </qresource>
+  <qresource prefix="caixa"/>
+  <qresource prefix="produtos">
+    <file>produtos-.png</file>
+  </qresource>
+  <qresource prefix="clientes">
+    <file>clientes.png</file>
+  </qresource>
+  <qresource prefix="sair">
+    <file>sair.png</file>
+  </qresource>
+  <qresource prefix="inicio">
+    <file>inicio.png</file>
+  </qresource>
+  <qresource prefix="salvar">
+    <file>salvar.png</file>
+  </qresource>
+  <qresource prefix="IconSistema">
+    <file>icon.ico</file>
+  </qresource>
+</RCC>
