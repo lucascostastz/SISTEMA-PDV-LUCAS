@@ -1,6 +1,9 @@
 # SISTEMA-PDV-LUCAS
 SISTEMA PDV DESELVOLVIDO PARA FINS DIDÁTICOS
 
+USUARIO: admin	
+Senha: admin
+
 instale as seguintes bibliotecas: PyQt6, QPixmap, sqlite3, tkinter, reportlab.
 Para fazer alguma alteração na interface use o QtDesigner, e para alteração no banco de dados use o DB Browser (SQLite).
 
