@@ -1,0 +1,21 @@
+# SISTEMA-PDV-LUCAS
+SISTEMA PDV DESELVOLVIDO PARA FINS DIDÁTICOS
+
+instale as seguintes bibliotecas: PyQt6, QPixmap, sqlite3, tkinter, reportlab.
+Para fazer alguma alteração na interface use o QtDesigner, e para alteração no banco de dados use o DB Browser (SQLite).
+
+O código está todo bagunçado justamente para que as pessoas usem seus conhecimentos para organizar e criar novas funções.
+
+
+Espero que gostem e bons estudo..
+Me sigam no intagram: lucas_costastz
+
+
+
+Att; Lucas Costa
+
+
+
+
+
+
